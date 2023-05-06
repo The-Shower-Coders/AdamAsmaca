@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #ada395;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+body > .column > div#tablo {
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: antiquewhite;
+}
+
+body > .column > div#tablo > div {
+    user-select: none;
+}
+
+#zemin {
+    display: none;
+    position: absolute;
+    width: 200px;
+    height: 1px;
+    background-color: black;
+    margin-top: 200px;
+}
+
+#idam-tahtasi-dik {
+    display: none;
+    position: absolute;
+    width: 1px;
+    height: 180px;
+    background-color: black;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+#idam-tahtasi-yatay {
+    display: none;
+    position: absolute;
+    width: 75px;
+    height: 1px;
+    background-color: black;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+#idam-tahtasi-assagi {
+    display: none;
+    position: absolute;
+    width: 1px;
+    height: 20px;
+    background-color: black;
+    margin-left: 105px;
+    margin-top: 20px;
+}
+
+#kafa {
+    display: none;
+    position: absolute;
+    border-radius: 100px;
+    border-width: 1px;
+    border-color: black;
+    border-style: ridge;
+    width: 30px;
+    height: 30px;
+    margin-left: 90px;
+    margin-top: 40px;
+}
+
+#govde {
+    display: none;
+    position: absolute;
+    width: 1px;
+    height: 85px;
+    background-color: black;
+    margin-left: 105px;
+    margin-top: 72px;
+}
+
+#ip {
+    display: none;
+    position: absolute;
+    border-radius: 100px;
+    border-width: 3px;
+    border-color: orange;
+    border-style: ridge;
+    width: 5px;
+    height: 5px;
+    margin-left: 100px;
+    margin-top: 71px;
+}
+
+#sag-kol {
+    display: none;
+    position: absolute;
+    width: 1px;
+    height: 40px;
+    background-color: black;
+    margin-left: 90px;
+    margin-top: 77px;
+    transform: rotate(45deg);
+}
+
+#sol-kol {
+    display: none;
+    position: absolute;
+    width: 1px;
+    height: 40px;
+    background-color: black;
+    margin-left: 120px;
+    margin-top: 77px;
+    transform: rotate(-45deg);
+}
+
+#sag-bacak {
+    display: none;
+    position: absolute;
+    width: 1px;
+    height: 40px;
+    background-color: black;
+    margin-left: 90px;
+    margin-top: 151px;
+    transform: rotate(45deg);
+}
+
+#sol-bacak {
+    display: none;
+    position: absolute;
+    width: 1px;
+    height: 40px;
+    background-color: black;
+    margin-left: 120px;
+    margin-top: 151px;
+    transform: rotate(-45deg);
+}
+
+body > .column > div#bilgi > label {
+    text-decoration: underline;
+    font-family: cursive;
+}
+
+body > .column > div#girdi > input {
+    width: 14px;
+    border: 0;
+    outline: 0;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    text-align: center;
+    user-select: none;
+    font-family: sans-serif;
+}
+
+body > .column > div#klavye > input {
+    cursor: pointer;
+    width: 14px;
+    border: 0;
+    outline: 0;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    text-align: center;
+    user-select: none;
+    font-family: sans-serif;
+}
